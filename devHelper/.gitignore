@@ -1,1 +1,3 @@
 /build
+/src/androidTest/java/com/erdinger/devhelper/ExampleInstrumentedTest.kt
+/src/test/java/com/erdinger/devhelper/ExampleUnitTest.kt
