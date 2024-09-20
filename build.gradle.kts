@@ -4,3 +4,9 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android) apply false
     alias(libs.plugins.android.library) apply false
 }
+
+buildscript {
+    dependencies {
+        classpath("com.android.tools.build:gradle:8.5.0")
+    }
+}
