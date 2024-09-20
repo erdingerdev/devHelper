@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.erdinger.devhelper"
-    compileSdk = 34
+    compileSdk = 33
 
     defaultConfig {
         applicationId = "com.erdinger.devhelper"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -44,6 +44,7 @@ dependencies {
     implementation(project(":devHelper"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
+    implementation(libs.androidx.activity)
     implementation(libs.material)
     implementation(libs.androidx.constraintlayout)
     testImplementation(libs.junit)
