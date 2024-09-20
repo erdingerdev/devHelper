@@ -54,9 +54,6 @@ afterEvaluate {
         publications {
             create<MavenPublication>("maven") {
                 from (components["release"])
-                groupId = "com.github.erdingerdev"
-                artifactId = "devHelper"
-                version = "1.0.0"
             }
         }
     }
