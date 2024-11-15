@@ -52,8 +52,8 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    implementation(libs.brvah)
-    implementation(libs.permissionx)
+    api(libs.brvah)
+    api(libs.permissionx)
 }
 
 afterEvaluate {
