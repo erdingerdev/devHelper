@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.erdinger.devhelper"
+    namespace = "com.erdinger.devhelperDemo"
     compileSdk = 33
 
     defaultConfig {
@@ -50,4 +50,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(libs.brvah)
 }
